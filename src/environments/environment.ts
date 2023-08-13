@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  weatherApiBaseUrl: ' http://api.weatherapi.com/v1',
+  keyName:'key',
+  keyValue:'7fa1df837af448a4b92213851231008',
+  qName:'q',
+  lang:'lang',
+  french:'fr',
+  currentWeatherApiMethod: '/current.json',
+  timeZoneApiMethod: '/timezone.json'
 };
 
 /*
