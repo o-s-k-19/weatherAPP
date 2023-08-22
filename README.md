@@ -1,29 +1,19 @@
 # WeatherApp
 
-# Application de type SPA qui donne la méteo d'une ville en utilisant rapidapi
+## Application de type SPA qui donne la méteo d'une ville en utilisant rapidapi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+Le projet a été réalisé avec [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
 
-## Development server
+### 1-cloner le projet
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+`git clone https://github.com/o-s-k-19/weatherAPP.git`
 
-## Code scaffolding
+### 2-recuperer sa clé d'accés pour se connecter à l'API en créant un compte sur
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`https://rapidapi.com/weatherapi/api/weatherapi-com/`
 
-## Build
+ajoutez la clé d'accés à l'endroit prévue `keyValue` dans le fichier environment.ts (mode dev) dans src/environments/
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### 3-lancer le serveur en mode dev
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+à la racine du projet executer dans le terminal `ng serve` et visitez cette adresse dans un navigateur pour voir l'application `http://localhost:4200/`.
